@@ -1,6 +1,5 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import Ramanan from '../Assets/Images/ramananimg.jpg'
 import Instaicon from '../Assets/Images/instaicon.png'
 import Linkedin from '../Assets/Images/linkedin-icon.png'
 import tool from '../Assets/Images/icons8-toolbox-64.png'
@@ -15,8 +14,6 @@ import card2 from '../Assets/Images/card2img.png'
 import card3 from '../Assets/Images/card3img.png'
 import Locationicon from '../Assets/Images/location-icon.png'
 import experience from '../Assets/Images/experience.png'
-import navlogo from '../Assets/Images/navimg.png'
-import Kalyanan from '../Assets/Images/Kalyanan.jpg'
 import Tech from '../Assets/Images/Tech.jpg'
 import profile1 from '../Assets/Images/profile1.png'
 import profile2 from '../Assets/Images/profile-2.png'
@@ -131,7 +128,6 @@ function Home() {
 
         </div>
       </section>
-      {/* Career-End */}
 
       {/* Technical Start */}
       <section>
@@ -279,7 +275,6 @@ function Home() {
         </div>
 
       </section>
-      {/* Technical end */}
 
       {/* portfolio start */}
       <section id='portfolio' className='m-5'>
@@ -497,8 +492,6 @@ function Home() {
           </div>
         </div>
       </section>
-
-
 
       {/* testimonal start */}
       <section className='nav-banner'>
@@ -964,10 +957,7 @@ function Home() {
         </div>
       </section>
 
-      {/* footer end */}
-
       <Scroll />
-
 
     </section>
   )
