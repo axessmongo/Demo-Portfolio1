@@ -81,6 +81,9 @@ function Home() {
             </div>
           </div>
         </nav>
+        <div className='buy-now d-flex justify-content-center align-items-center rounded-2'>
+        <Link to="https://axesstechnology.in/contact" target="_blank" className='buy-now-bt'>BuyNow</Link>
+      </div>
         {/* Nav-End */}
 
         {/* Banner-Start */}
